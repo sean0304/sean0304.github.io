@@ -3,6 +3,8 @@
 <html>
 
 <head>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
 
 	<title>预览版：赵鑫扬的github页面</title>
 
@@ -128,7 +130,7 @@
 		<p>预览版</p>
 		<div class="tool" onclick="location.href='./一言.html'">
 
-			<img src="timer.png" alt="一言">
+			<img src="一言.ico" alt="一言">
 
 			<div>
 
@@ -136,12 +138,13 @@
 
 				<p>随机一言，许多名言警句</p>
 
+			</div>
 
 		</div>
 
 		<div class="tool" onclick="location.href='./今日诗词.html'">
 
-			<img src="number.png" alt="今日诗词">
+			<img src="今日诗词.png" alt="今日诗词">
 
 			<div>
 
@@ -153,9 +156,23 @@
 
 		</div>
 
+		<div class="tool" onclick="location.href='./烟花.html'">
+
+			<img src="烟花.png" alt="烟花">
+
+			<div>
+
+				<h2>烟花</h2>
+
+				<p>烟花</p>
+
+			</div>
+
+		</div>
+
 		<div class="tool" onclick="location.href='./字符统计.html'">
 
-			<img src="number.png" alt="字符统计">
+			<img src="字符统计.png" alt="字符统计">
 
 			<div>
 
@@ -169,7 +186,7 @@
 
 		<div class="tool" onclick="location.href='./粒子效果文本生成.html'">
 
-			<img src="number.png" alt="粒子效果文本生成">
+			<img src="特效文字.png" alt="粒子效果文本生成">
 
 			<div>
 
@@ -180,7 +197,7 @@
 			</div>
 
 		</div>
-				<div class="1">
+		<div class="1">
 			<h3>神秘代码</h3>
 			<form>
 				<div class="form-group">
@@ -196,7 +213,7 @@
 				if (code === "") {
 					alert("请输入神秘代码！");
 				} else {
-					var url = "https://sean0304.github.io/" + code + ".html";
+					var url = "https://shu-shu-1.github.io/" + code + ".html";
 					window.location.href = url;
 					window.open(url);
 				}
